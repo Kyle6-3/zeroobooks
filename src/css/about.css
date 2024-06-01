@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+body {
+    width: 100%;
+}
+
+:root {
+    /* colors universal colors for all pages */
+
+    --font-family: 'Poppins', sans-serif;
+    --font-family2: 'Open sand', sans-serif;
+    --primary-color: #136635;
+    --primary-color2: #77ac8d;
+    /* asset ---black---*/
+    --asset-black: #000;
+    --white: #ffff;
+    /* asset ---other---*/
+    --out-line-color: #d7d7d7;
+    --rgba-color: rgba(0, 0, 0, .25);
+    --fade-black: #201c1cd2;
+    --asset-color-hover: #2cac61;
+    --asset-color-fade-white: #efefef;
+    --asset-color-gray: #504e4e;
+    --asset-color-red: #ff0000;
+    --asset-color-gray: #7A8388;
+    --box-shadow: 6px 7px 54px 0px rgba(0, 0, 0, 0.15);
+    /* --font--width */
+    --Xl-width: 900;
+    --L-width: 800;
+    --M-width: 700;
+    --s-width: 550;
+    --ss-width: 500;
+    --sss-width: 300;
+}
+
+.fixedContainer {
+    margin: auto;
+    max-width: 1164px;
+    /* padding: 0 10px; */
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+
+.hero-section .content  {
+    margin-top: 2.5rem;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.hero-section .content h1, p {
+    text-align: left;
+}
+
+.hero-section .content h1{
+    font-family: var(--font-family);
+    font-size: 2.7rem;
+    line-height: 50px;
+    color:var(--fade-black);
+}
+
+.hero-section .content p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:var(--asset-black);
+}
+
+.hero-section .content .flex-item a{
+    font-family: var(--font-family);
+    font-size: 11px;
+    margin: 2.5px;
+    font-weight: var(--M-width);
+    color:var(--asset-color-hover);
+    text-decoration: none;
+    transition: 3s ease;
+}
+
+.hero-section .content .flex-item a:hover{
+    font-family: var(--font-family);
+    font-size: 12px;
+    margin: 2.5px;
+    font-weight: var(--M-width);
+    color:var(--asset-black);
+    text-decoration: none;
+}
+
+.hero-img {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top: 10rem;
+    right: 0;
+}
+
+.hero-img img {
+    width: 700px;
+}
+
+.about-section {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.about-section .about-hero-img img {
+    width: 650px;
+    margin-bottom: 20px;
+    transition: 3s ease;
+}
+
+.about-section .content .heading {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    text-align: right;
+    line-height:  normal;
+    color:var(--fade-black);
+}
+
+.about-section .about-hero-img p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:var(--asset-black);
+}
+
+.about-section .content p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-align: right;
+    color:var(--asset-black);
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-section h4 {
+    text-align: center;
+    line-height: 70px;
+    font-size: 2rem;
+    font-family: var(--font-family);
+}
+
+.team-container {
+    flex: 0 0 16rem;
+    width: 25%;
+    height: auto;
+    margin-bottom: 2rem;
+    background: var(--asset-color-fade-white);
+}
+
+.details-container {
+    margin-bottom: 30px;
+}
+
+.details-content  {
+    padding:0 0 10px;
+}
+
+.details-content .img  img {
+    width: 100%;
+    /* width: 250px; */
+}
+.details-content .content-text h3 {
+    font-size: 30px;
+    font-family: var(--font-family);
+}
+
+.details-content .content-text p {
+    line-height: normal;
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+
+.team-link ul li {
+    list-style: none;
+}
+.team-link ul li a {
+    text-decoration: none;
+}
+
+
+
+
